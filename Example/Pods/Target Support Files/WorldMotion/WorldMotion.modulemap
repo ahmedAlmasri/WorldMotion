@@ -1,0 +1,6 @@
+framework module WorldMotion {
+  umbrella header "WorldMotion-umbrella.h"
+
+  export *
+  module * { export * }
+}

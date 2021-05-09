@@ -1,0 +1,16 @@
+PODS:
+  - WorldMotion (0.1.0)
+
+DEPENDENCIES:
+  - WorldMotion (from `../`)
+
+EXTERNAL SOURCES:
+  WorldMotion:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WorldMotion: 4487749687762817466cbf82a708f1c2c8ae1616
+
+PODFILE CHECKSUM: 70ba38c6346852aa199ff9d0141005e31a626456
+
+COCOAPODS: 1.10.1

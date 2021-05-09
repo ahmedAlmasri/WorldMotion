@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2739119F67CAFF5455995FD2F19D1846 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */; };
+		2A27D266913D5924141464E8B3849FFF /* WorldMotion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F959B57E22E01797431CB9F6A6355 /* WorldMotion-dummy.m */; };
+		40A283FE26486FCA0055AAB6 /* RotationMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */; };
+		40A28400264886B20055AAB6 /* Array+Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A283FF264886B20055AAB6 /* Array+Matrix.swift */; };
+		40A284022648885E0055AAB6 /* DeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A284012648885E0055AAB6 /* DeviceMotion.swift */; };
+		439520CD7E7794E0DF31A84336E14B7A /* Pods-WorldMotion_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F55662AC2A39D386CBEE653B90DB01 /* Pods-WorldMotion_Tests-dummy.m */; };
+		7EB9E37324C6AF4206BC0FC117A12121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9B26E885DEE86C98B27FE8D1D5BC3FED /* Pods-WorldMotion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D6EDD0270BB2C2D3E24667E7FBA0BE /* Pods-WorldMotion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ABEA4413A7166A6F687E776C41FA5EA5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B8D4A8E1A521333A8D21AB083FE9756A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		BB427B60755615719FE047C1B95DDD07 /* Pods-WorldMotion_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55BA04DA45EBC4AF2E20C8A33CAC79C4 /* Pods-WorldMotion_Example-dummy.m */; };
+		C83F739E5009BB0F9FD76270C60C8610 /* Pods-WorldMotion_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A034B4810BCAD94D7388A443F85095 /* Pods-WorldMotion_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8E6E2E69DFEC5D1BFAE44662F5AAF68 /* WorldMotion-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A82BC8B1F4EA4E5E4656FF5A8F5165F3 /* WorldMotion-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		147B144C8ED494FD83662128070376FA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB19C401982C1F828CD5C6FE0AB89356;
+			remoteInfo = WorldMotion;
+		};
+		B821CD1018D1AA65B71911290420B4E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B4F5EC7AF38972271F5699844E93EAC;
+			remoteInfo = "Pods-WorldMotion_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		015C0BF18D30B0C72626ECD7B697CF95 /* WorldMotion-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldMotion-prefix.pch"; sourceTree = "<group>"; };
+		28A034B4810BCAD94D7388A443F85095 /* Pods-WorldMotion_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldMotion_Example-umbrella.h"; sourceTree = "<group>"; };
+		2FDB38F7F66E9DDA263FB56845685A06 /* Pods_WorldMotion_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldMotion_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F8923B736AAB40AE0BB9C7336F75980 /* Pods-WorldMotion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldMotion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationMatrix.swift; sourceTree = "<group>"; };
+		40A283FF264886B20055AAB6 /* Array+Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Matrix.swift"; sourceTree = "<group>"; };
+		40A284012648885E0055AAB6 /* DeviceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotion.swift; sourceTree = "<group>"; };
+		4362CF53CBF5EA1570F3A6017EC4D70E /* Pods-WorldMotion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4DA242C2D6FC41F01C3E813C191A3953 /* Pods-WorldMotion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Example.release.xcconfig"; sourceTree = "<group>"; };
+		55BA04DA45EBC4AF2E20C8A33CAC79C4 /* Pods-WorldMotion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldMotion_Example-dummy.m"; sourceTree = "<group>"; };
+		5CE74D0E6A10C3F3D5656060AFC1FF17 /* Pods-WorldMotion_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldMotion_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		60F55662AC2A39D386CBEE653B90DB01 /* Pods-WorldMotion_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldMotion_Tests-dummy.m"; sourceTree = "<group>"; };
+		648F4D5E468F85FCAA5C3FF189E774EE /* WorldMotion-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WorldMotion-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79D6EDD0270BB2C2D3E24667E7FBA0BE /* Pods-WorldMotion_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldMotion_Tests-umbrella.h"; sourceTree = "<group>"; };
+		82DBC8A3E682E65B00CB3B6E97CA0602 /* Pods-WorldMotion_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldMotion_Example-frameworks.sh"; sourceTree = "<group>"; };
+		884014A87A8620BC3F41D7315EB52632 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8C4D0F34AA2A8316F8A035924B993834 /* Pods-WorldMotion_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldMotion_Tests.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A19D5D5D3FBF636D72BBC88C09121A49 /* Pods-WorldMotion_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldMotion_Example.modulemap"; sourceTree = "<group>"; };
+		A1F563EC77AA40703464209E3408439D /* Pods-WorldMotion_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A42F959B57E22E01797431CB9F6A6355 /* WorldMotion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorldMotion-dummy.m"; sourceTree = "<group>"; };
+		A53B84D278CC7351670EABC51AD0EBFA /* WorldMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WorldMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A690584113929106C582218D0D82F030 /* Pods-WorldMotion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WorldMotion/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		A80EF7ED731F8E5886940B824DA72AB0 /* WorldMotion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WorldMotion.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A82BC8B1F4EA4E5E4656FF5A8F5165F3 /* WorldMotion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldMotion-umbrella.h"; sourceTree = "<group>"; };
+		A8C26976F514DE800275DF6553427AC6 /* WorldMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorldMotion.release.xcconfig; sourceTree = "<group>"; };
+		ADD738358829ADE0A2FC285EDE159493 /* WorldMotion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorldMotion.modulemap; sourceTree = "<group>"; };
+		B6255D59A95A4F43A174CA007D4990B2 /* Pods-WorldMotion_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldMotion_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C1C722F06595D3E6438E1C4C832373B1 /* Pods_WorldMotion_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldMotion_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA3887A5FC34760610C875D1E2967A9F /* Pods-WorldMotion_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldMotion_Example-Info.plist"; sourceTree = "<group>"; };
+		CB1EA2DA456178F7BC24976B29647C0F /* WorldMotion.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorldMotion.debug.xcconfig; sourceTree = "<group>"; };
+		D6E0BBBE6FB7DA39A6EBAF68E4A6E8DA /* Pods-WorldMotion_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldMotion_Tests-Info.plist"; sourceTree = "<group>"; };
+		E7522F934DD512A2BDA1A246146231F4 /* Pods-WorldMotion_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldMotion_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EFA17FCA9155F7634556D3B213E2E104 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C9E645E362AEC713885EDAAA12E81CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8D4A8E1A521333A8D21AB083FE9756A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C00C09A57FEC0EA1392AE1AE72EEA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABEA4413A7166A6F687E776C41FA5EA5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F2574299A3C100DEE8F8EB06E0E8AB62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EB9E37324C6AF4206BC0FC117A12121 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0202AE275D1A567E90FE7299415B8FFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FDB38F7F66E9DDA263FB56845685A06 /* Pods_WorldMotion_Example.framework */,
+				C1C722F06595D3E6438E1C4C832373B1 /* Pods_WorldMotion_Tests.framework */,
+				A53B84D278CC7351670EABC51AD0EBFA /* WorldMotion.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		029B4B58203365B43860827A1EB22650 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADD738358829ADE0A2FC285EDE159493 /* WorldMotion.modulemap */,
+				A42F959B57E22E01797431CB9F6A6355 /* WorldMotion-dummy.m */,
+				648F4D5E468F85FCAA5C3FF189E774EE /* WorldMotion-Info.plist */,
+				015C0BF18D30B0C72626ECD7B697CF95 /* WorldMotion-prefix.pch */,
+				A82BC8B1F4EA4E5E4656FF5A8F5165F3 /* WorldMotion-umbrella.h */,
+				CB1EA2DA456178F7BC24976B29647C0F /* WorldMotion.debug.xcconfig */,
+				A8C26976F514DE800275DF6553427AC6 /* WorldMotion.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WorldMotion";
+			sourceTree = "<group>";
+		};
+		164F2CFF1DE8748D98BC47499490C3D9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				884014A87A8620BC3F41D7315EB52632 /* LICENSE */,
+				EFA17FCA9155F7634556D3B213E2E104 /* README.md */,
+				A80EF7ED731F8E5886940B824DA72AB0 /* WorldMotion.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		1D1207CD10211840F8130B997B9168A9 /* Pods-WorldMotion_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8C4D0F34AA2A8316F8A035924B993834 /* Pods-WorldMotion_Tests.modulemap */,
+				5CE74D0E6A10C3F3D5656060AFC1FF17 /* Pods-WorldMotion_Tests-acknowledgements.markdown */,
+				B6255D59A95A4F43A174CA007D4990B2 /* Pods-WorldMotion_Tests-acknowledgements.plist */,
+				60F55662AC2A39D386CBEE653B90DB01 /* Pods-WorldMotion_Tests-dummy.m */,
+				D6E0BBBE6FB7DA39A6EBAF68E4A6E8DA /* Pods-WorldMotion_Tests-Info.plist */,
+				79D6EDD0270BB2C2D3E24667E7FBA0BE /* Pods-WorldMotion_Tests-umbrella.h */,
+				A690584113929106C582218D0D82F030 /* Pods-WorldMotion_Tests.debug.xcconfig */,
+				4362CF53CBF5EA1570F3A6017EC4D70E /* Pods-WorldMotion_Tests.release.xcconfig */,
+			);
+			name = "Pods-WorldMotion_Tests";
+			path = "Target Support Files/Pods-WorldMotion_Tests";
+			sourceTree = "<group>";
+		};
+		4D72F86B37C72A5B817D42C7344BFEB9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F8B8633DD4A65F8C03144712B1E5F821 /* WorldMotion */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		92249A155C608319628716667C759004 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */,
+				40A283FF264886B20055AAB6 /* Array+Matrix.swift */,
+				40A284012648885E0055AAB6 /* DeviceMotion.swift */,
+			);
+			name = Sources;
+			path = WorldMotion/Classes/Sources;
+			sourceTree = "<group>";
+		};
+		ACE20F1706599626CAC6BB1F48CFD41B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1961D6630A9BA1ED30FD545995F7FE3 /* Pods-WorldMotion_Example */,
+				1D1207CD10211840F8130B997B9168A9 /* Pods-WorldMotion_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				4D72F86B37C72A5B817D42C7344BFEB9 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				0202AE275D1A567E90FE7299415B8FFE /* Products */,
+				ACE20F1706599626CAC6BB1F48CFD41B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1961D6630A9BA1ED30FD545995F7FE3 /* Pods-WorldMotion_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A19D5D5D3FBF636D72BBC88C09121A49 /* Pods-WorldMotion_Example.modulemap */,
+				E7522F934DD512A2BDA1A246146231F4 /* Pods-WorldMotion_Example-acknowledgements.markdown */,
+				3F8923B736AAB40AE0BB9C7336F75980 /* Pods-WorldMotion_Example-acknowledgements.plist */,
+				55BA04DA45EBC4AF2E20C8A33CAC79C4 /* Pods-WorldMotion_Example-dummy.m */,
+				82DBC8A3E682E65B00CB3B6E97CA0602 /* Pods-WorldMotion_Example-frameworks.sh */,
+				CA3887A5FC34760610C875D1E2967A9F /* Pods-WorldMotion_Example-Info.plist */,
+				28A034B4810BCAD94D7388A443F85095 /* Pods-WorldMotion_Example-umbrella.h */,
+				A1F563EC77AA40703464209E3408439D /* Pods-WorldMotion_Example.debug.xcconfig */,
+				4DA242C2D6FC41F01C3E813C191A3953 /* Pods-WorldMotion_Example.release.xcconfig */,
+			);
+			name = "Pods-WorldMotion_Example";
+			path = "Target Support Files/Pods-WorldMotion_Example";
+			sourceTree = "<group>";
+		};
+		F8B8633DD4A65F8C03144712B1E5F821 /* WorldMotion */ = {
+			isa = PBXGroup;
+			children = (
+				A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */,
+				164F2CFF1DE8748D98BC47499490C3D9 /* Pod */,
+				92249A155C608319628716667C759004 /* Sources */,
+				029B4B58203365B43860827A1EB22650 /* Support Files */,
+			);
+			name = WorldMotion;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0B75EB5BF18EF8153DDD93456139177E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8E6E2E69DFEC5D1BFAE44662F5AAF68 /* WorldMotion-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554FE92BECFD923B9138075E1663D933 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C83F739E5009BB0F9FD76270C60C8610 /* Pods-WorldMotion_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCA87E9E1E9910334AFB6DFF947C615E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B26E885DEE86C98B27FE8D1D5BC3FED /* Pods-WorldMotion_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		9B4F5EC7AF38972271F5699844E93EAC /* Pods-WorldMotion_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D29A67853B8008C321B6CD51EDC155F /* Build configuration list for PBXNativeTarget "Pods-WorldMotion_Example" */;
+			buildPhases = (
+				554FE92BECFD923B9138075E1663D933 /* Headers */,
+				1C5992AC4CFF0FC850845120167D799E /* Sources */,
+				95C00C09A57FEC0EA1392AE1AE72EEA9 /* Frameworks */,
+				3067B92B45ADD6D5B730374EDDCE34A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55A15D0258DB328A8271F392FA3D8C64 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldMotion_Example";
+			productName = "Pods-WorldMotion_Example";
+			productReference = 2FDB38F7F66E9DDA263FB56845685A06 /* Pods_WorldMotion_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A919F007B7970DB79B7F16326BD09428 /* Pods-WorldMotion_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A0A861773DA1D558DFB813F2BF9A7C9 /* Build configuration list for PBXNativeTarget "Pods-WorldMotion_Tests" */;
+			buildPhases = (
+				CCA87E9E1E9910334AFB6DFF947C615E /* Headers */,
+				F16C2FEB51FFD00839E11106C6F438BD /* Sources */,
+				F2574299A3C100DEE8F8EB06E0E8AB62 /* Frameworks */,
+				69FEAB95BAAC4EDECDB78993B53C73CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				026EBDACE2D776E77C23067B50F35DDD /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldMotion_Tests";
+			productName = "Pods-WorldMotion_Tests";
+			productReference = C1C722F06595D3E6438E1C4C832373B1 /* Pods_WorldMotion_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB19C401982C1F828CD5C6FE0AB89356 /* WorldMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67FE2D73648989797BE5F90550A902D8 /* Build configuration list for PBXNativeTarget "WorldMotion" */;
+			buildPhases = (
+				0B75EB5BF18EF8153DDD93456139177E /* Headers */,
+				A1C940959DDF00EE32F00090C21AF7D8 /* Sources */,
+				2C9E645E362AEC713885EDAAA12E81CB /* Frameworks */,
+				AA49EC3257E4EE27FC0BB8867F550557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WorldMotion;
+			productName = WorldMotion;
+			productReference = A53B84D278CC7351670EABC51AD0EBFA /* WorldMotion.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 0202AE275D1A567E90FE7299415B8FFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B4F5EC7AF38972271F5699844E93EAC /* Pods-WorldMotion_Example */,
+				A919F007B7970DB79B7F16326BD09428 /* Pods-WorldMotion_Tests */,
+				CB19C401982C1F828CD5C6FE0AB89356 /* WorldMotion */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3067B92B45ADD6D5B730374EDDCE34A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		69FEAB95BAAC4EDECDB78993B53C73CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA49EC3257E4EE27FC0BB8867F550557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5992AC4CFF0FC850845120167D799E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB427B60755615719FE047C1B95DDD07 /* Pods-WorldMotion_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C940959DDF00EE32F00090C21AF7D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40A28400264886B20055AAB6 /* Array+Matrix.swift in Sources */,
+				40A284022648885E0055AAB6 /* DeviceMotion.swift in Sources */,
+				40A283FE26486FCA0055AAB6 /* RotationMatrix.swift in Sources */,
+				2739119F67CAFF5455995FD2F19D1846 /* ReplaceMe.swift in Sources */,
+				2A27D266913D5924141464E8B3849FFF /* WorldMotion-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F16C2FEB51FFD00839E11106C6F438BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				439520CD7E7794E0DF31A84336E14B7A /* Pods-WorldMotion_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		026EBDACE2D776E77C23067B50F35DDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorldMotion_Example";
+			target = 9B4F5EC7AF38972271F5699844E93EAC /* Pods-WorldMotion_Example */;
+			targetProxy = B821CD1018D1AA65B71911290420B4E2 /* PBXContainerItemProxy */;
+		};
+		55A15D0258DB328A8271F392FA3D8C64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WorldMotion;
+			target = CB19C401982C1F828CD5C6FE0AB89356 /* WorldMotion */;
+			targetProxy = 147B144C8ED494FD83662128070376FA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		028FFE22C8403EB14A1CFE71FE8FB4CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DA242C2D6FC41F01C3E813C191A3953 /* Pods-WorldMotion_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldMotion_Example/Pods-WorldMotion_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldMotion_Example/Pods-WorldMotion_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		30BEF7552929505A7BEC2B1175A13334 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A690584113929106C582218D0D82F030 /* Pods-WorldMotion_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldMotion_Tests/Pods-WorldMotion_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldMotion_Tests/Pods-WorldMotion_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C6F94833632F7FD42466DC42911CE2A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1F563EC77AA40703464209E3408439D /* Pods-WorldMotion_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldMotion_Example/Pods-WorldMotion_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldMotion_Example/Pods-WorldMotion_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89976CE034D6E68207E55BABAC08F496 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4362CF53CBF5EA1570F3A6017EC4D70E /* Pods-WorldMotion_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldMotion_Tests/Pods-WorldMotion_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldMotion_Tests/Pods-WorldMotion_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B8A3EAA772D71FFF91EF033AD6754A31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8C26976F514DE800275DF6553427AC6 /* WorldMotion.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldMotion/WorldMotion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldMotion/WorldMotion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WorldMotion/WorldMotion.modulemap";
+				PRODUCT_MODULE_NAME = WorldMotion;
+				PRODUCT_NAME = WorldMotion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		EA515E308A4101A2B8D31AE6829B6299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB1EA2DA456178F7BC24976B29647C0F /* WorldMotion.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WorldMotion/WorldMotion-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WorldMotion/WorldMotion-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WorldMotion/WorldMotion.modulemap";
+				PRODUCT_MODULE_NAME = WorldMotion;
+				PRODUCT_NAME = WorldMotion;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D29A67853B8008C321B6CD51EDC155F /* Build configuration list for PBXNativeTarget "Pods-WorldMotion_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7C6F94833632F7FD42466DC42911CE2A /* Debug */,
+				028FFE22C8403EB14A1CFE71FE8FB4CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67FE2D73648989797BE5F90550A902D8 /* Build configuration list for PBXNativeTarget "WorldMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA515E308A4101A2B8D31AE6829B6299 /* Debug */,
+				B8A3EAA772D71FFF91EF033AD6754A31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A0A861773DA1D558DFB813F2BF9A7C9 /* Build configuration list for PBXNativeTarget "Pods-WorldMotion_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30BEF7552929505A7BEC2B1175A13334 /* Debug */,
+				89976CE034D6E68207E55BABAC08F496 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_WorldMotion_Example {
+  umbrella header "Pods-WorldMotion_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
