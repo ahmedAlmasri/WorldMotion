@@ -1,4 +1,5 @@
-# WorldMotion
+# 🌏 WorldMotion 🧘🏼 (beta)
+
 Use a CoreMotion sensor to use a coordinate system that represents device motion or position relative to the Earth. In this coordinate system:
 
 - y points to magnetic north along the surface of the Earth.

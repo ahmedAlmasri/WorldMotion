@@ -1,10 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'WorldMotion'
-  s.version          = '0.1.0'
+  s.version          = '0.0.1'
   s.summary          = 'Coordinate system that represents device motion or position relative to the Earth'
 
-  s.description      = <<-DESC
-  Use a CoreMotion sensor to use a coordinate system that represents device motion or position relative to the Earth.                       DESC
+  s.description      = "Use a CoreMotion sensor to use a coordinate system that represents device motion or position relative to the Earth."
 
   s.homepage         = 'https://github.com/ahmedAlmasri/WorldMotion'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
