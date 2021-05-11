@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +19,46 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wKL-qw-V8R">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="klnlkmlkkmlmlk" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mK8-q2-rk5">
+                                <rect key="frame" x="129.5" y="323.5" width="116" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="systemRedColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="mK8-q2-rk5" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="CRt-Yi-pMa"/>
+                            <constraint firstItem="mK8-q2-rk5" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="Hhp-ys-kyj"/>
+                            <constraint firstItem="wKL-qw-V8R" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="IJC-PC-tDS"/>
+                            <constraint firstAttribute="trailing" secondItem="wKL-qw-V8R" secondAttribute="trailing" id="WDt-Uj-bGn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wKL-qw-V8R" secondAttribute="bottom" id="ZWs-D8-eyB"/>
+                            <constraint firstItem="wKL-qw-V8R" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="dDv-Yd-kdJ"/>
+                            <constraint firstItem="mK8-q2-rk5" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="113.5" id="hJ2-ss-bFH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mK8-q2-rk5" secondAttribute="trailing" constant="113.5" id="kao-WX-J0L"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="orLabel" destination="mK8-q2-rk5" id="YLt-nw-M5F"/>
+                        <outlet property="previewView" destination="wKL-qw-V8R" id="uOU-ce-i5q"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="138" y="134"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
 </document>

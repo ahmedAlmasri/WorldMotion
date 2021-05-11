@@ -81,7 +81,7 @@ public extension CMRotationMatrix {
     }
     
     /// Rotates the supplied rotation matrix so it is expressed in a different coordinate system. This is typically used when an application needs to compute the three orientation angles of the device
-     func coordinateSystem(X: Int, Y: Int) -> CMRotationMatrix {
+     func coordinateSystem(_ X: Int, _ Y: Int) -> CMRotationMatrix {
         var outR = CMRotationMatrix()
         var outArr = outR.toArray()
         let inArr = self.toArray()

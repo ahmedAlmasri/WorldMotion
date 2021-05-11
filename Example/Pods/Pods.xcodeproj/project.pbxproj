@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2739119F67CAFF5455995FD2F19D1846 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */; };
 		2A27D266913D5924141464E8B3849FFF /* WorldMotion-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A42F959B57E22E01797431CB9F6A6355 /* WorldMotion-dummy.m */; };
 		40A283FE26486FCA0055AAB6 /* RotationMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */; };
 		40A28400264886B20055AAB6 /* Array+Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A283FF264886B20055AAB6 /* Array+Matrix.swift */; };
-		40A284022648885E0055AAB6 /* DeviceMotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A284012648885E0055AAB6 /* DeviceMotion.swift */; };
+		40A284022648885E0055AAB6 /* EarthCoordinate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A284012648885E0055AAB6 /* EarthCoordinate.swift */; };
+		40A2840B264B2A7A0055AAB6 /* Double+Degree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40A2840A264B2A7A0055AAB6 /* Double+Degree.swift */; };
 		439520CD7E7794E0DF31A84336E14B7A /* Pods-WorldMotion_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60F55662AC2A39D386CBEE653B90DB01 /* Pods-WorldMotion_Tests-dummy.m */; };
 		7EB9E37324C6AF4206BC0FC117A12121 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		9B26E885DEE86C98B27FE8D1D5BC3FED /* Pods-WorldMotion_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D6EDD0270BB2C2D3E24667E7FBA0BE /* Pods-WorldMotion_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -46,7 +46,8 @@
 		3F8923B736AAB40AE0BB9C7336F75980 /* Pods-WorldMotion_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldMotion_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationMatrix.swift; sourceTree = "<group>"; };
 		40A283FF264886B20055AAB6 /* Array+Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Matrix.swift"; sourceTree = "<group>"; };
-		40A284012648885E0055AAB6 /* DeviceMotion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMotion.swift; sourceTree = "<group>"; };
+		40A284012648885E0055AAB6 /* EarthCoordinate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthCoordinate.swift; sourceTree = "<group>"; };
+		40A2840A264B2A7A0055AAB6 /* Double+Degree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Degree.swift"; sourceTree = "<group>"; };
 		4362CF53CBF5EA1570F3A6017EC4D70E /* Pods-WorldMotion_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4DA242C2D6FC41F01C3E813C191A3953 /* Pods-WorldMotion_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Example.release.xcconfig"; sourceTree = "<group>"; };
 		55BA04DA45EBC4AF2E20C8A33CAC79C4 /* Pods-WorldMotion_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldMotion_Example-dummy.m"; sourceTree = "<group>"; };
@@ -64,8 +65,7 @@
 		A42F959B57E22E01797431CB9F6A6355 /* WorldMotion-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WorldMotion-dummy.m"; sourceTree = "<group>"; };
 		A53B84D278CC7351670EABC51AD0EBFA /* WorldMotion.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WorldMotion.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A690584113929106C582218D0D82F030 /* Pods-WorldMotion_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldMotion_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = WorldMotion/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		A80EF7ED731F8E5886940B824DA72AB0 /* WorldMotion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WorldMotion.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A80EF7ED731F8E5886940B824DA72AB0 /* WorldMotion.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WorldMotion.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A82BC8B1F4EA4E5E4656FF5A8F5165F3 /* WorldMotion-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WorldMotion-umbrella.h"; sourceTree = "<group>"; };
 		A8C26976F514DE800275DF6553427AC6 /* WorldMotion.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WorldMotion.release.xcconfig; sourceTree = "<group>"; };
 		ADD738358829ADE0A2FC285EDE159493 /* WorldMotion.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WorldMotion.modulemap; sourceTree = "<group>"; };
@@ -178,7 +178,8 @@
 			children = (
 				40A283FD26486FCA0055AAB6 /* RotationMatrix.swift */,
 				40A283FF264886B20055AAB6 /* Array+Matrix.swift */,
-				40A284012648885E0055AAB6 /* DeviceMotion.swift */,
+				40A284012648885E0055AAB6 /* EarthCoordinate.swift */,
+				40A2840A264B2A7A0055AAB6 /* Double+Degree.swift */,
 			);
 			name = Sources;
 			path = WorldMotion/Classes/Sources;
@@ -232,7 +233,6 @@
 		F8B8633DD4A65F8C03144712B1E5F821 /* WorldMotion */ = {
 			isa = PBXGroup;
 			children = (
-				A7C7A4633A3DCCFA413822B84E2619A8 /* ReplaceMe.swift */,
 				164F2CFF1DE8748D98BC47499490C3D9 /* Pod */,
 				92249A155C608319628716667C759004 /* Sources */,
 				029B4B58203365B43860827A1EB22650 /* Support Files */,
@@ -393,10 +393,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40A2840B264B2A7A0055AAB6 /* Double+Degree.swift in Sources */,
 				40A28400264886B20055AAB6 /* Array+Matrix.swift in Sources */,
-				40A284022648885E0055AAB6 /* DeviceMotion.swift in Sources */,
+				40A284022648885E0055AAB6 /* EarthCoordinate.swift in Sources */,
 				40A283FE26486FCA0055AAB6 /* RotationMatrix.swift in Sources */,
-				2739119F67CAFF5455995FD2F19D1846 /* ReplaceMe.swift in Sources */,
 				2A27D266913D5924141464E8B3849FFF /* WorldMotion-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
